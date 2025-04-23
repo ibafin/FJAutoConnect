@@ -32,7 +32,11 @@ extension remain the exclusive property of Financial Juice.
 
 ## Installation
 
-This is a private extension. Installation instructions are provided only to authorized users.
+1. Download or clone this repository
+2. Open Chrome and go to `chrome://extensions/`
+3. Enable "Developer mode" in the top right corner
+4. Click "Load unpacked" and select the directory containing these files
+5. The extension will automatically start working when you visit Financial Juice
 
 ## Configuration
 
