@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "FJ Auto Connect",
+  "version": "1.0",
+  "description": "Proprietary extension for Financial Juice voice player auto-connection. All rights reserved.",
+  "author": "Copyright (c) 2024. All Rights Reserved.",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.financialjuice.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.financialjuice.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+} 
